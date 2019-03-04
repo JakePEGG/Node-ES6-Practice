@@ -13,3 +13,7 @@ describe('fizzbuzz', function() {
     it('should return fizz % 3 == 0', function () {
         expect(fizzbuzz(3)).to.be.equal('fizz')
     });
+
+    it('should return buzz % 5 == 0', function() {
+  expect(fizzbuzz(5)).to.be.equal('buzz')
+});
