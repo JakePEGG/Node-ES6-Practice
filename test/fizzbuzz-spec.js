@@ -1,4 +1,5 @@
 var expect = require('chai').expect
+var assert = require('assert');
 
 
 describe('fizzbuzz', function() {
@@ -16,4 +17,10 @@ describe('fizzbuzz', function() {
 
     it('should return buzz % 5 == 0', function() {
   expect(fizzbuzz(5)).to.be.equal('buzz')
-});
+  });
+
+  it('should return fizzbuzz for % 3 & % 5 == 0', function(){
+  expect(fizzbuzz(15)).to.be.equal('fizzbuzz')
+  });
+
+  });
